@@ -26,7 +26,7 @@ class Validation
     {
         $getRules =  explode('|', $rules);
         $validationError = [];
-        // dd($getRules);
+
         foreach ($getRules as $rule) {
             $validationError[]  = $this->rule($rule);
         }
