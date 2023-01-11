@@ -32,7 +32,7 @@ This is a laravel coding test for the role of backend developer, this laravel te
 - PHP v8.1
 - Git
 - composer
-- postman
+- POSTMAN
 
 ## How to install and run on localhost
 
