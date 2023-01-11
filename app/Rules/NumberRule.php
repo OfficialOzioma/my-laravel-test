@@ -35,6 +35,6 @@ class NumberRule implements Rule
      */
     public function message()
     {
-        return 'The :attribute must contain numeric characters.';
+        return 'The :attribute must be a number.';
     }
 }

@@ -47,6 +47,6 @@ class EmailRule implements Rule
      */
     public function message()
     {
-        return 'The :attribute must contain a valid email.';
+        return 'The :attribute must be a valid email address.';
     }
 }

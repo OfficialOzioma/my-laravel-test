@@ -25,11 +25,7 @@ class AlphaRule implements Rule
      */
     public function passes($attribute, $value)
     {
-        // if (!preg_match('/^[\p{L} ]+$/u', $value)) {
-        //     $errors[] = "Name must only contain letters!";
-        // }
         return (ctype_alpha($value)) ? true : false;
-        // return (!preg_match('/^[\p{L} ]+$/u', $value)) ? true : false;
     }
 
     /**
@@ -39,6 +35,6 @@ class AlphaRule implements Rule
      */
     public function message()
     {
-        return 'The :attribute must contain Alphabet.';
+        return 'The :attribute must only contain letters.';
     }
 }
