@@ -1,15 +1,30 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
-
 # Laravel Test
 
-This is coding testing for the role of backend Developer
+This is coding testing for the role of backend Developer, this laravel Test takes some json payload and run some custom validation on the payload
+### Payload Sample
+
+```
+{
+    "first_name": {
+        "value": "John",
+        "rules": "alpha|required"
+    },
+    "last_name": {
+        "value": "Doe",
+        "rules": "alpha|required"
+    },
+    "email": {
+        "value": "Doe",
+        "rules": "email"
+    },
+    "phone": {
+        "value": "08175020329",
+        "rules": "number"
+    }
+}
+```
 
 ### Techonologies
 
@@ -20,10 +35,10 @@ This is coding testing for the role of backend Developer
 
 ## How to install and run on localhost
 
-- run `git clone git@github.com:OfficialOzioma/my-laravel-test.git`
-- run `composer install`
-- run `php artisan serve`
-- visit `POST 127.0.0.1:8000/api/user` on the postman
+- Run `git clone git@github.com:OfficialOzioma/my-laravel-test.git`
+- Run `composer install`
+- Run `php artisan serve`
+- Send a POST request to `127.0.0.1:8000/api/user` on the postman
 
 ## License
 
