@@ -39,6 +39,6 @@ class AlphaRule implements Rule
      */
     public function message()
     {
-        return 'The :attribute must contain only Alphabet.';
+        return 'The :attribute must contain Alphabet.';
     }
 }
