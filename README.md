@@ -2,7 +2,7 @@
 
 # Laravel Test
 
-This is a laravel coding test for the role of backend developer, this laravel test takes some json payload through API request and run some custom validation on the payload
+This is a laravel coding test for the role of backend developer, this laravel test takes some JSON payload through API request and run some custom validation on the payload
 
 ### Payload Sample
 
@@ -34,13 +34,13 @@ This is a laravel coding test for the role of backend developer, this laravel te
 - composer
 - POSTMAN
 
-## How to install and run on localhost
+## How to run on the localhost
 
 - Run `git clone git@github.com:OfficialOzioma/my-laravel-test.git`
 - Run `cd my-laravel-test`
 - Run `composer install`
 - Run `php artisan serve`
-- Send a POST request to `http://127.0.0.1:8000/api/user` on the postman
+- Send a POST request to `http://127.0.0.1:8000/api/user` on the POSTMAN
 
 ## License
 
