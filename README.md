@@ -2,7 +2,7 @@
 
 # Laravel Test
 
-This is a larvel coding testing for the role of backend developer, this laravel Test takes some json payload through API request and run some custom validation on the payload
+This is a laravel coding test for the role of backend developer, this laravel test takes some json payload through API request and run some custom validation on the payload
 
 ### Payload Sample
 
